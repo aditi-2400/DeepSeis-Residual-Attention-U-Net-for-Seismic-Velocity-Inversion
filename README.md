@@ -48,7 +48,6 @@ The project focuses on predicting subsurface velocity models from seismic receiv
 1. Clone the repository:
    ```bash
    git clone https://github.com/aditi-2400/DeepSeis-Residual-Attention-U-Net-for-Seismic-Velocity-Inversion.git
-   cd seismic-velocity-inversion
    ```
 2. Install dependencies:
    ```bash
