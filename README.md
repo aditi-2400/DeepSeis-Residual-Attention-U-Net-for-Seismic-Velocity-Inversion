@@ -47,7 +47,7 @@ The project focuses on predicting subsurface velocity models from seismic receiv
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone <repo_url>
+   git clone https://github.com/aditi-2400/DeepSeis-Residual-Attention-U-Net-for-Seismic-Velocity-Inversion.git
    cd seismic-velocity-inversion
    ```
 2. Install dependencies:
@@ -56,7 +56,7 @@ The project focuses on predicting subsurface velocity models from seismic receiv
    ```
 3. Run training:
    ```bash
-   python src/train.py
+   python src/train_res_attn_unet.py
    ```
 4. Evaluate the model:
    ```bash
