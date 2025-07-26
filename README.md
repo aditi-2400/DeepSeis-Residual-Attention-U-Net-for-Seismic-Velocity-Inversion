@@ -25,17 +25,19 @@ The project focuses on predicting subsurface velocity models from seismic receiv
 ## Repository Structure
 ```
 .
-├── data/                     # Data files (not included in repo)
-├── notebooks/                # Jupyter notebooks for experiments
+├── data/                            # Data files (not included in repo)
+├── notebooks/                       # Jupyter notebooks for experiments
 │   └── Unet_seismic.ipynb
-├── src/                      # Source code
-│   ├── dataset.py            # Dataset loader
-│   ├── model.py              # Residual Attention U-Net implementation
-│   ├── train.py              # Training script
-│   ├── evaluate.py           # Evaluation script
-│   └── utils.py              # Helper functions
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project documentation
+├── src/                             # Source code
+│   ├── dataset.py                   # Dataset loader
+│   ├── model_res_attn_unet.py       # Residual Attention U-Net implementation
+│   ├── model_attn_unet.py
+│   ├── model_unet.py 
+│   ├── train.py                     # Training script
+│   ├── evaluate.py                  # Evaluation script
+│   └── utils.py                     # Helper functions
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Project documentation
 ```
 
 ## Results
